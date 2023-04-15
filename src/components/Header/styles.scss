@@ -1,0 +1,30 @@
+.mainHeader{
+   display: flex;
+   justify-content: space-between;
+   padding: 60px 250px 40px 250px;
+   color: white;
+   img{
+      width: 185px;
+      height: 40px;
+   }
+   .title{
+      font-size: 25px;
+      font-weight: 700;
+   }
+   nav{
+      a{
+         color: white;
+         margin-left: 35px;
+         font-size: 18px;
+         font-weight: 400;
+         text-decoration: none;
+         &.linkActive {
+            color:#E59C9C;
+            text-decoration-line: underline;
+         }
+         &:first-child{
+            margin-left: 0;
+         }
+      }
+   }
+}

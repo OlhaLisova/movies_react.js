@@ -1,0 +1,80 @@
+.movieDetail{
+   .movieDetailWrapper{
+      display: flex;
+      width: 1000px;
+      height: 500px;  
+      background: #FFFFFF;
+      border-radius: 20px;
+      margin:auto;
+      margin-bottom: 100px;
+      .leftPart{
+         margin: 25px 20px 5px 20px;
+         img{
+            border-radius: 20px;
+            width: 229px;
+            height: 339px; 
+         }
+      }
+      .leftInfo{
+         .topPart{
+            display: flex;
+            width: 70%;
+            margin: 30px 0 20px 0;
+            max-height: 30px;
+            .name{
+               font-weight: 700;
+               font-size: 28px;
+               text-transform: uppercase;
+               color: #E59C9C;
+               margin: 0 250px 0 0;
+               min-width: 300px;
+            }
+            .star{
+               font-weight: 800;
+               font-size: 27px;
+               
+            }
+            img{
+               width: 30px;
+               height: 30px; 
+               margin: 0 10px 0 10px;
+            }
+         }
+         .bottomPart{
+            display: flex;
+            .bottomLeftPart{
+               max-width: 250px;
+               min-height: 262px;
+               font-weight: 700;
+               font-size: 16px;
+               line-height: 52px;
+               text-transform: uppercase;
+            }
+            .bottomRihgtPart{
+               max-width: 550px;
+               min-height: 262px;
+               margin-left: 20px;
+               font-weight: 700;
+               font-size: 16px;
+               text-align: justify;
+               text-transform: uppercase;
+               .year{
+                  line-height: 52px;
+               }
+               .country{
+                  font-weight: 600;
+                  line-height: 52px;
+               }
+               .genres{
+                  line-height: 52px;
+               }
+               .information{
+                  font-weight: 400;
+                  text-transform:none;
+                  margin-top:18px;
+               }
+            }
+         }
+      }
+   }
+}

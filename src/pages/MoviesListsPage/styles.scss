@@ -1,0 +1,21 @@
+.moviesListsPage{
+   margin: auto;
+   width: 1000px;
+   background: #FFFFFF;
+   border-radius: 20px;
+   margin-bottom: 100px;
+   .titleList{
+      padding: 40px 0 20px 50px;
+      h2{
+         font-weight: 200;
+         font-size: 40px;
+         color: #333333;
+         font-weight: 400;
+         span{
+            font-weight: 700;
+            font-size: 40px;
+            color: #E59C9C;
+         }
+      }
+   }
+}

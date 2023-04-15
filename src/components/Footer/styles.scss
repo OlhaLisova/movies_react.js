@@ -1,0 +1,25 @@
+.mainFooter{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 57px 250px 56px 250px;
+   width: auto;
+   background: #3A3A3A;
+   font-weight: 700;
+   div{
+      font-size: 20px;
+      color: #FFFFFF;
+      font-weight: 400;
+      &.small{
+         font-size: 18px;
+         &:last-child{
+            text-align: right;
+         }
+      }
+   }
+   div{
+      img {
+         width: 185px;
+         height: 41px;
+   }}
+}
